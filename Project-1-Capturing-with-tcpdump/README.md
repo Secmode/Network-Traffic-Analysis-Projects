@@ -7,9 +7,14 @@ This project demonstrates how to capture, save, and analyze network traffic usin
 - **Tool:** tcpdump
 - **Network Interface:** (eth0 / wlan0 / ens33, etc.)
 - **Sample PCAP:** [2021-09-14.pcap  /2023-02-03.pcap]
-<img width="771" height="284" alt="image" src="https://github.com/user-attachments/assets/f5c82f0d-363a-42b8-b8c9-94942198b1f8" />
+<img width="1870" height="574" alt="image" src="https://github.com/user-attachments/assets/b1bd7211-4070-41f3-87bb-a6b8bc82bb52" />
 
 
+
+
+## Setp 1
+Read File _ tcpdump -r 2021-09-14.pcap
+Read File _ tcpdump -r 2021-09-14.pcap --count
 
 
 
