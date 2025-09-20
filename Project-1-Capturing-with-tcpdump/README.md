@@ -92,5 +92,18 @@ This project aligns with recognized cybersecurity frameworks:
 
 ---
 
-## Next Steps / i will be analyzing  the second pCAP captured 
+## Next Steps / i will be analyzing  the second PCAP captured 2023-02-03.pcap
+count pcap. tcpdump -r 2023-02-03.pcap --count
+<img width="922" height="170" alt="image" src="https://github.com/user-attachments/assets/a26ac1bd-391f-4367-81dd-35450438f8ad" />
+
+tcpdump -tt -r 2023-02-03.pcap -n tcp and dst 10.0.18.169 and src 85.239.53.219 \
+| cut -d " " -f 5 \
+| cut -d "." -f 1-3 \
+| sort \
+| uniq -c \
+| sort -nr
+
+
+
+
 
