@@ -9,7 +9,7 @@ This repository contains network traffic analysis projects where I downloaded re
 
 
 ## Projects
-1. [Project 1 —  Traffic with tcpdump](./Project-1-traffic-with-tcpdump/README.md)  
+1. [Project 1 —  Traffic with tcpdump](./Project-1-Capturing-with-tcpdump)  
    Analysis of a network capture using tcpdump and Linux tools to summarize TCP traffic, highlight key flows, and identify potential anomalies.
    - Summarize TCP traffic
    - Identify top source and destination IPs
